@@ -1,14 +1,10 @@
-//meta code
-<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"> 
-
-//style code for chat button
 <style type='text/css'>
 	.embeddedServiceHelpButton .helpButton .uiButton {
-		background-color: #0058A3;
+		background-color: #005290;
 		font-family: "Arial", sans-serif;
-		}
+	}
 	.embeddedServiceHelpButton .helpButton .uiButton:focus {
-		outline: 1px solid #0058A3;
+		outline: 1px solid #005290;
 	}
 </style>
 
@@ -18,7 +14,7 @@
 		embedded_svc.settings.displayHelpButton = true; //Or false
 		embedded_svc.settings.language = ''; //For example, enter 'en' or 'en-US'
 
-		embedded_svc.settings.defaultMinimizedText = 'Chat with Sales'; //(Defaults to Chat with an Expert)
+		//embedded_svc.settings.defaultMinimizedText = '...'; //(Defaults to Chat with an Expert)
 		//embedded_svc.settings.disabledMinimizedText = '...'; //(Defaults to Agent Offline)
 
 		//embedded_svc.settings.loadingText = ''; //(Defaults to Loading)
@@ -33,7 +29,7 @@
 		//embedded_svc.settings.fallbackRouting = []; //An array of button IDs, user IDs, or userId_buttonId
 		//embedded_svc.settings.offlineSupportMinimizedText = '...'; //(Defaults to Contact Us)
 
-//Code to facilitate retrieving associated cookies from the user browser and storing it as Coupon Code in LiveChatTranscript		
+		//Code to facilitate retrieving associated cookies from the user browser and storing it as Coupon Code in LiveChatTranscript		
 //Retrieve all cookies
 
 var x = document.cookie;
@@ -94,8 +90,9 @@ var foundInsession =false;
 		  "label":"Phone", 
 		  "transcriptFields": ["Phone__c"]
 		}];
-    
-    embedded_svc.settings.enabledFeatures = ['LiveAgent'];
+		
+
+		embedded_svc.settings.enabledFeatures = ['LiveAgent'];
 		embedded_svc.settings.entryFeature = 'LiveAgent';
 
 		embedded_svc.init(
