@@ -100,16 +100,16 @@ var foundInsession =false;
 
 		embedded_svc.init(
 			'https://wexinc--stagefull.sandbox.my.salesforce.com',
-			'https://wexinc--stagefull.sandbox.my.site.com/AUEGFuel',
+			'https://wexinc--stagefull.sandbox.my.salesforce-sites.com/chat',
 			gslbBaseURL,
-			'00DU70000003ZkP',
+			'00DU8000000Tosf',
 			'Chevron_Sales_Bot',
 			{
 				baseLiveAgentContentURL: 'https://c.la2s-core2.sfdc-lywfpd.salesforceliveagent.com/content',
-				deploymentId: '572U70000003e5l',
-				buttonId: '573U700000015Gz',
+				deploymentId: '572U80000008ofZ',
+				buttonId: '573U80000002Gn3',
 				baseLiveAgentURL: 'https://d.la2s-core2.sfdc-lywfpd.salesforceliveagent.com/chat',
-				eswLiveAgentDevName: 'EmbeddedServiceLiveAgent_Parent04IU7000000B3tpMAC_18dfadb020f',
+				eswLiveAgentDevName: 'EmbeddedServiceLiveAgent_Parent04IU8000000RmBpMAK_18e3824ace5',
 				isOfflineSupportEnabled: false
 			}
 		);
