@@ -1,4 +1,13 @@
 <style type='text/css'>
+div.embeddedServiceHelpButton div.helpButton button.uiButton:focus,
+div.modalContainer.embeddedServiceSidebar button.minimizedContainer.embeddedServiceSidebarMinimizedDefaultUI:focus {
+    outline: 3px solid #ffffff!important;
+}
+
+.showDockableContainer header.sidebarHeader button.minimizeButton:focus,
+.showDockableContainer header.sidebarHeader button.minimizeButton:focus {
+outline: 2px auto #ffffff;
+}
 	.embeddedServiceHelpButton .helpButton .uiButton {
 		background-color: #008375;
 		font-family: "Arial", sans-serif;
@@ -7,6 +16,16 @@
 		outline: 1px solid #008375;
 	}
 </style>
+
+div.embeddedServiceHelpButton div.helpButton button.uiButton:focus,
+div.modalContainer.embeddedServiceSidebar button.minimizedContainer.embeddedServiceSidebarMinimizedDefaultUI:focus {
+    outline: 3px solid #ffffff!important;
+}
+
+.showDockableContainer header.sidebarHeader button.minimizeButton:focus,
+.showDockableContainer header.sidebarHeader button.minimizeButton:focus {
+outline: 2px auto #ffffff;
+}
 
 <script type='text/javascript' src='https://service.force.com/embeddedservice/5.0/esw.min.js'></script>
 <script type='text/javascript'>
